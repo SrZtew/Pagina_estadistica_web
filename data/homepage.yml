@@ -1,0 +1,146 @@
+head:
+  title: "Portafolio de Sebastián Martínez Fontlavo"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hola, soy Sebastián Martínez Fontlavo."
+  subtitle: "Estudiante de Ingeniería Electrónica"
+  description: "Apasionado por la física, la inteligencia artificial y la ingeniería. Me especializo en el análisis de datos aplicados a la resolución de problemas complejos del mundo real, combinando pensamiento crítico, programación y modelado matemático."
+  image:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+  imageMobile:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contáctame"
+    URL: "mailto:sebastian.tu.email@gmail.com"
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/sebastianmartinezfontlavo"
+    - icon: "github"
+      URL: "https://github.com/sebastian"
+    - icon: "twitter"
+      URL: "https://twitter.com/sebastian"
+    - icon: "instagram"
+      URL: "https://www.instagram.com/sebastian"
+
+# about
+about:
+  enable: true
+  title: "¿Quién soy?"
+  content: |
+    <p class="lead">
+    Soy Sebastián Martínez, estudiante de Ingeniería Electrónica en la Universidad del Magdalena, con formación autodidacta en inteligencia artificial, automatización y programación. Mi enfoque está en traducir la teoría a soluciones prácticas mediante prototipos de IA, controladores en MATLAB y Python, y automatización industrial con PLC.
+    </p>
+    <p class="lead">
+    Me motiva construir herramientas que generen valor: optimización de recursos, reducción de costos y mejora en la eficiencia. Siempre busco aprender, colaborar y aportar soluciones sólidas, bien documentadas y listas para escalar.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "Sobre mí"
+    URL: "https://www.linkedin.com/in/sebastianmartinezfontlavo"
+  image:
+    x: "img/who-am-i/user-picture-2.jpg"
+    _2x: "img/who-am-i/user-picture-2.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experiencia"
+  description: "He participado en proyectos académicos relacionados con control automático, procesamiento de señales y ciencia de datos aplicados a la ingeniería. También he colaborado en monitorías, ayudando a otros estudiantes a comprender conceptos complejos."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "LinkedIn"
+    URL: "https://www.linkedin.com/in/sebastianmartinezfontlavo"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Descargar mi CV"
+    URL: "/cv/cv-sebastian.pdf"
+  items:
+    - title: "Monitor Académico - Control 1"
+      company: "Universidad del Magdalena"
+      duration: "2025 - Actualidad"
+    - title: "Proyecto de investigación en IA y señales neuronales"
+      company: "Facultad de Ingeniería"
+      duration: "2025"
+    - title: "Tutorías de matemáticas, física y programación"
+      company: "Freelance"
+      duration: "2023 - 2024"
+
+# education
+education:
+  enable: true
+  title: "Educación"
+  items:
+    - university: "Universidad del Magdalena"
+      year: "2021 - Actualidad"
+      degree: "Ingeniería Electrónica"
+
+# client & work
+client_and_work:
+  title: "Portafolio"
+  enable: true
+  enable_clients: false
+  works:
+    - title: "Sistema de control discreto para un péndulo invertido"
+      description: "Simulación y análisis de controladores PID y LQR para estabilizar un sistema no lineal usando MATLAB y Simulink."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Ver Proyecto"
+        URL: "#"
+      image:
+        x: "img/works/pid_pendulum.jpg"
+        _2x: "img/works/pid_pendulum.jpg"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonios"
+  items:
+    - name: "Carlos Pérez"
+      position: "Estudiante de Ingeniería Electrónica"
+      content: "Con Sebastián diseñamos un sistema SCADA para una planta de alimentos que automatizó procesos industriales y mejoró la trazabilidad."
+      image:
+        x: "img/testimonials/carlos.jpg"
+        _2x: "img/testimonials/carlos.jpg"
+    - name: "Josué Andrade"
+      position: "Estudiante de Control 1"
+      content: "Gracias a su mentoría, implementamos un sistema Ball and Beam con un controlador neurodifuso."
+      image:
+        x: "img/testimonials/ana.jpg"
+        _2x: "img/testimonials/ana.jpg"
+    - name: "José Rosales"
+      position: "Pasante de Investigación"
+      content: "La colaboración con Sebastián permitió clasificar imágenes médicas usando modelos de inteligencia artificial."
+      image:
+        x: "img/testimonials/luis.jpg"
+        _2x: "img/testimonials/luis.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contáctame"
+  image:
+    x: "img/who-am-i/user-picture-2.jpg"
+    _2x: "img/who-am-i/user-picture-2.jpg"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Enviar mensaje"
+    btnAction: 'mailto:sebastian.tu.email@gmail.com'
+  phone:
+    title: "Teléfono"
+    number: "+57 XXX XXX XXXX"
+  email:
+    title: "Correo Electrónico"
+    address: '<a href="mailto:sebastian.tu.email@gmail.com">sebastian.tu.email@gmail.com</a>'
+  address:
+    title: "Dirección"
+    location: "Santa Marta, Colombia"
+
+# newsletter
+newsletter:
+  enable: false
